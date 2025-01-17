@@ -208,6 +208,12 @@ header,footer{
 }
 
 /*card*/
+.cards{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
 .card {
   max-width: 300px;
   border: 1px solid #0cae61;

@@ -77,7 +77,7 @@ function back() {
         </nav>
 
         <div class="cards">
-            <div class="card">
+            <div class="card" v-for="a in 100">
                 <img src="/img.jpg" alt="img" width="100px">
 
                 <h3>Название</h3>
